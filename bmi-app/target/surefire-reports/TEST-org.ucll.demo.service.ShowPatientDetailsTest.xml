@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.ucll.demo.service.ShowPatientDetailsTest" time="0.348" tests="48" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2018.2.4"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="10.0.2+13"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-10-openjdk/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/user1/Q/ucll1819/testing/bmi-app"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/user1/Q/ucll1819/testing/bmi-app"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="10.0.2+13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/opt/intellij-idea-ultimate-edition/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="54.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.18.10-arch1-1-ARCH"/>
+    <property name="user.home" value="/home/user1"/>
+    <property name="user.timezone" value="Europe/Brussels"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="10"/>
+    <property name="user.name" value="user1"/>
+    <property name="java.class.path" value="/opt/intellij-idea-ultimate-edition/plugins/maven/lib/maven3/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="10"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2018.2.4 install"/>
+    <property name="java.home" value="/usr/lib/jvm/java-10-openjdk"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="10.0.2"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/opt/intellij-idea-ultimate-edition/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2018-07-17"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="Given a patient with the social security number &quot;93051822361&quot;, gender &quot;male&quot; and birthdate &quot;1993-05-18&quot;" classname="Scenario: the personal details of a registered patient are given" time="0.002"/>
+  <testcase name="And on &quot;2000-04-10&quot; the patient had a length of 180 cm and a weight of 75000 gr" classname="Scenario: the personal details of a registered patient are given" time="0"/>
+  <testcase name="And the patient is registered" classname="Scenario: the personal details of a registered patient are given" time="0.001"/>
+  <testcase name="When I ask for the details of the patient using his social security number" classname="Scenario: the personal details of a registered patient are given" time="0"/>
+  <testcase name="Then the personal details social security number, gender and birthdate are given" classname="Scenario: the personal details of a registered patient are given" time="0"/>
+  <testcase name="And the examination details length, weight and last examination date are given" classname="Scenario: the personal details of a registered patient are given" time="0.001"/>
+  <testcase name="And the calculated bmi &quot;23.15&quot; is given" classname="Scenario: the personal details of a registered patient are given" time="0.001"/>
+  <testcase name="Scenario: the personal details of a registered patient are given" classname="Scenario: the personal details of a registered patient are given" time="0.002"/>
+  <testcase name="Given a patient with the social security number &quot;93051822361&quot;" classname="Scenario: the physical data of the most recent examination are given" time="0"/>
+  <testcase name="And on &quot;2000-04-17&quot; the patient had a length of 180 cm and a weight of 80000 gr" classname="Scenario: the physical data of the most recent examination are given" time="0"/>
+  <testcase name="And the patient is registered" classname="Scenario: the physical data of the most recent examination are given" time="0"/>
+  <testcase name="And on &quot;2000-04-10&quot; the patient had a length of 180 cm and a weight of 75000 gr but these data were added later" classname="Scenario: the physical data of the most recent examination are given" time="0"/>
+  <testcase name="When I ask for the details of the patient using his social security number" classname="Scenario: the physical data of the most recent examination are given" time="0"/>
+  <testcase name="Then the length 180, weight 80000, and date of the examination &quot;2000-04-17&quot; are given" classname="Scenario: the physical data of the most recent examination are given" time="0"/>
+  <testcase name="And the calculated bmi &quot;24.69&quot; is based on these data" classname="Scenario: the physical data of the most recent examination are given" time="0"/>
+  <testcase name="Scenario: the physical data of the most recent examination are given" classname="Scenario: the physical data of the most recent examination are given" time="0.001"/>
+  <testcase name="Given a patient that is not registered" classname="Scenario: an error message is given if the patient cannot be found" time="0"/>
+  <testcase name="When I ask for the details of the patient using his social security number" classname="Scenario: an error message is given if the patient cannot be found" time="0"/>
+  <testcase name="Then an error message is given" classname="Scenario: an error message is given if the patient cannot be found" time="0"/>
+  <testcase name="And no details are given" classname="Scenario: an error message is given if the patient cannot be found" time="0"/>
+  <testcase name="Scenario: an error message is given if the patient cannot be found" classname="Scenario: an error message is given if the patient cannot be found" time="0.001"/>
+  <testcase name="Given a patient that is registered with a length 160 cm and weight 65000 gr" classname="| 160 | 65000 | &quot;25.39&quot; |" time="0"/>
+  <testcase name="When I ask for the details of the patient" classname="| 160 | 65000 | &quot;25.39&quot; |" time="0"/>
+  <testcase name="Then the bmi &quot;25.39&quot; is given rounded to two digits" classname="| 160 | 65000 | &quot;25.39&quot; |" time="0"/>
+  <testcase name="| 160 | 65000 | &quot;25.39&quot; |" classname="| 160 | 65000 | &quot;25.39&quot; |" time="0.001"/>
+  <testcase name="Given a patient that is registered with a length 160 cm and weight 65001 gr" classname="| 160 | 65001 | &quot;25.39&quot; |" time="0"/>
+  <testcase name="When I ask for the details of the patient" classname="| 160 | 65001 | &quot;25.39&quot; |" time="0"/>
+  <testcase name="Then the bmi &quot;25.39&quot; is given rounded to two digits" classname="| 160 | 65001 | &quot;25.39&quot; |" time="0"/>
+  <testcase name="| 160 | 65001 | &quot;25.39&quot; |" classname="| 160 | 65001 | &quot;25.39&quot; |" time="0.001"/>
+  <testcase name="Given a patient that is registered with a length 160 cm and weight 65009 gr" classname="| 160 | 65009 | &quot;25.39&quot; |" time="0"/>
+  <testcase name="When I ask for the details of the patient" classname="| 160 | 65009 | &quot;25.39&quot; |" time="0"/>
+  <testcase name="Then the bmi &quot;25.39&quot; is given rounded to two digits" classname="| 160 | 65009 | &quot;25.39&quot; |" time="0"/>
+  <testcase name="| 160 | 65009 | &quot;25.39&quot; |" classname="| 160 | 65009 | &quot;25.39&quot; |" time="0.001"/>
+  <testcase name="Given a patient that is registered with a length 180 cm and weight 75000 gr" classname="| 180 | 75000 | &quot;23.15&quot; |" time="0"/>
+  <testcase name="When I ask for the details of the patient" classname="| 180 | 75000 | &quot;23.15&quot; |" time="0"/>
+  <testcase name="Then the bmi &quot;23.15&quot; is given rounded to two digits" classname="| 180 | 75000 | &quot;23.15&quot; |" time="0"/>
+  <testcase name="| 180 | 75000 | &quot;23.15&quot; |" classname="| 180 | 75000 | &quot;23.15&quot; |" time="0.001"/>
+  <testcase name="Given a patient that is registered with a length 180 cm and weight 75009 gr" classname="| 180 | 75009 | &quot;23.15&quot; |" time="0"/>
+  <testcase name="When I ask for the details of the patient" classname="| 180 | 75009 | &quot;23.15&quot; |" time="0"/>
+  <testcase name="Then the bmi &quot;23.15&quot; is given rounded to two digits" classname="| 180 | 75009 | &quot;23.15&quot; |" time="0"/>
+  <testcase name="| 180 | 75009 | &quot;23.15&quot; |" classname="| 180 | 75009 | &quot;23.15&quot; |" time="0.002"/>
+  <testcase name="Given a patient with the social security number &quot;93051822361&quot;" classname="Scenario: In order to navigate to the data of a certain patient As a caretaker I want to see the list of all patients" time="0"/>
+  <testcase name="And a second patient with the social security number &quot;870811220062&quot;" classname="Scenario: In order to navigate to the data of a certain patient As a caretaker I want to see the list of all patients" time="0"/>
+  <testcase name="And both patients are registered" classname="Scenario: In order to navigate to the data of a certain patient As a caretaker I want to see the list of all patients" time="0"/>
+  <testcase name="When I ask to see a list of all my patients" classname="Scenario: In order to navigate to the data of a certain patient As a caretaker I want to see the list of all patients" time="0"/>
+  <testcase name="Then a patient with the social security number &quot;93051822361&quot; is given" classname="Scenario: In order to navigate to the data of a certain patient As a caretaker I want to see the list of all patients" time="0"/>
+  <testcase name="And a patient with the social security number &quot;870811220062&quot; is given" classname="Scenario: In order to navigate to the data of a certain patient As a caretaker I want to see the list of all patients" time="0"/>
+  <testcase name="Scenario: In order to navigate to the data of a certain patient As a caretaker I want to see the list of all patients" classname="Scenario: In order to navigate to the data of a certain patient As a caretaker I want to see the list of all patients" time="0.001"/>
+</testsuite>

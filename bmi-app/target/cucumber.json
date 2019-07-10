@@ -1,0 +1,1063 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 726939,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ShowPatientDetailsSteps.setup()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "the personal details of a registered patient are given",
+        "description": "",
+        "id": "show-patient-details;the-personal-details-of-a-registered-patient-are-given",
+        "after": [
+          {
+            "result": {
+              "duration": 88926,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ShowPatientDetailsSteps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 208751445,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "a patient with the social security number \"93051822361\", gender \"male\" and birthdate \"1993-05-18\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "93051822361",
+                  "offset": 43
+                },
+                {
+                  "val": "male",
+                  "offset": 65
+                },
+                {
+                  "val": "1993-05-18",
+                  "offset": 86
+                }
+              ],
+              "location": "ShowPatientDetailsSteps.a_patient_with_the_social_security_number_gender_male_and_birthdate(String,String,Date)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 988572,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "on \"2000-04-10\" the patient had a length of 180 cm and a weight of 75000 gr",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2000-04-10",
+                  "offset": 4
+                },
+                {
+                  "val": "180",
+                  "offset": 44
+                },
+                {
+                  "val": "75000",
+                  "offset": 67
+                }
+              ],
+              "location": "ShowPatientDetailsSteps.on_the_patient_had_a_length_of_cm_and_a_weight_of_gr(Date,int,int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 918574,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the patient is registered",
+            "match": {
+              "location": "ShowPatientDetailsSteps.the_patient_is_registered()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 582614,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I ask for the details of the patient using his social security number",
+            "match": {
+              "location": "ShowPatientDetailsSteps.i_ask_for_the_details_of_the_patient_using_his_social_security_number()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1985462,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the personal details social security number, gender and birthdate are given",
+            "match": {
+              "location": "ShowPatientDetailsSteps.the_personal_details_social_security_number_gender_and_birthdate_are_given()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 132979,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the examination details length, weight and last examination date are given",
+            "match": {
+              "location": "ShowPatientDetailsSteps.the_examination_details_length_weight_and_last_examination_date_are_given()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 333268,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the calculated bmi \"23.15\" is given",
+            "match": {
+              "arguments": [
+                {
+                  "val": "23.15",
+                  "offset": 20
+                }
+              ],
+              "location": "ShowPatientDetailsSteps.the_calculated_bmi_is_given(double)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 212042,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ShowPatientDetailsSteps.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "the physical data of the most recent examination are given",
+        "description": "",
+        "id": "show-patient-details;the-physical-data-of-the-most-recent-examination-are-given",
+        "after": [
+          {
+            "result": {
+              "duration": 50740,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ShowPatientDetailsSteps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 159198,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "a patient with the social security number \"93051822361\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "93051822361",
+                  "offset": 43
+                }
+              ],
+              "location": "ShowPatientDetailsSteps.a_patient_with_the_social_security_number(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 548122,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "on \"2000-04-17\" the patient had a length of 180 cm and a weight of 80000 gr",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2000-04-17",
+                  "offset": 4
+                },
+                {
+                  "val": "180",
+                  "offset": 44
+                },
+                {
+                  "val": "80000",
+                  "offset": 67
+                }
+              ],
+              "location": "ShowPatientDetailsSteps.on_the_patient_had_a_length_of_cm_and_a_weight_of_gr(Date,int,int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74066,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the patient is registered",
+            "match": {
+              "location": "ShowPatientDetailsSteps.the_patient_is_registered()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 623610,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "on \"2000-04-10\" the patient had a length of 180 cm and a weight of 75000 gr but these data were added later",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2000-04-10",
+                  "offset": 4
+                },
+                {
+                  "val": "180",
+                  "offset": 44
+                },
+                {
+                  "val": "75000",
+                  "offset": 67
+                }
+              ],
+              "location": "ShowPatientDetailsSteps.on_the_patient_had_a_length_of_cm_and_a_weight_of_gr_but_these_data_were_added_later(Date,int,int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 181929,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I ask for the details of the patient using his social security number",
+            "match": {
+              "location": "ShowPatientDetailsSteps.i_ask_for_the_details_of_the_patient_using_his_social_security_number()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 591535,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the length 180, weight 80000, and date of the examination \"2000-04-17\" are given",
+            "match": {
+              "arguments": [
+                {
+                  "val": "180",
+                  "offset": 11
+                },
+                {
+                  "val": "80000",
+                  "offset": 23
+                },
+                {
+                  "val": "2000-04-17",
+                  "offset": 59
+                }
+              ],
+              "location": "ShowPatientDetailsSteps.the_length_weight_and_date_of_the_examination_are_given(int,int,Date)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 194763,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the calculated bmi \"24.69\" is based on these data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "24.69",
+                  "offset": 20
+                }
+              ],
+              "location": "ShowPatientDetailsSteps.the_calculated_bmi_is_based_on_these_data(double)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 94027,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ShowPatientDetailsSteps.setup()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "an error message is given if the patient cannot be found",
+        "description": "",
+        "id": "show-patient-details;an-error-message-is-given-if-the-patient-cannot-be-found",
+        "after": [
+          {
+            "result": {
+              "duration": 46830,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ShowPatientDetailsSteps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 54806,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "a patient that is not registered",
+            "match": {
+              "location": "ShowPatientDetailsSteps.a_patient_that_is_not_registered()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 109449,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I ask for the details of the patient using his social security number",
+            "match": {
+              "location": "ShowPatientDetailsSteps.i_ask_for_the_details_of_the_patient_using_his_social_security_number()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 88298,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "an error message is given",
+            "match": {
+              "location": "ShowPatientDetailsSteps.an_error_message_is_given()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 90776,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "no details are given",
+            "match": {
+              "location": "ShowPatientDetailsSteps.no_details_are_given()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 123349,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ShowPatientDetailsSteps.setup()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "the bmi is rounded to 2 digits",
+        "description": "",
+        "id": "show-patient-details;the-bmi-is-rounded-to-2-digits;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 84992,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ShowPatientDetailsSteps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 333036,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "a patient that is registered with a length 160 cm and weight 65000 gr",
+            "match": {
+              "arguments": [
+                {
+                  "val": "160",
+                  "offset": 43
+                },
+                {
+                  "val": "65000",
+                  "offset": 61
+                }
+              ],
+              "location": "ShowPatientDetailsSteps.a_patient_that_is_registered_with_a_length_cm_and_weight_gr(int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 184454,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I ask for the details of the patient",
+            "match": {
+              "location": "ShowPatientDetailsSteps.i_ask_for_the_details_of_the_patient()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 182589,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "the bmi \"25.39\" is given rounded to two digits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25.39",
+                  "offset": 9
+                }
+              ],
+              "location": "ShowPatientDetailsSteps.the_bmi_is_given_rounded_to_two_digits(double)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 138176,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ShowPatientDetailsSteps.setup()"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "the bmi is rounded to 2 digits",
+        "description": "",
+        "id": "show-patient-details;the-bmi-is-rounded-to-2-digits;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 53790,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ShowPatientDetailsSteps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 262516,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "a patient that is registered with a length 160 cm and weight 65001 gr",
+            "match": {
+              "arguments": [
+                {
+                  "val": "160",
+                  "offset": 43
+                },
+                {
+                  "val": "65001",
+                  "offset": 61
+                }
+              ],
+              "location": "ShowPatientDetailsSteps.a_patient_that_is_registered_with_a_length_cm_and_weight_gr(int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 149663,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I ask for the details of the patient",
+            "match": {
+              "location": "ShowPatientDetailsSteps.i_ask_for_the_details_of_the_patient()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9207856,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "the bmi \"25.39\" is given rounded to two digits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25.39",
+                  "offset": 9
+                }
+              ],
+              "location": "ShowPatientDetailsSteps.the_bmi_is_given_rounded_to_two_digits(double)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 148340,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ShowPatientDetailsSteps.setup()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "the bmi is rounded to 2 digits",
+        "description": "",
+        "id": "show-patient-details;the-bmi-is-rounded-to-2-digits;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 49025,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ShowPatientDetailsSteps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 256305,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "a patient that is registered with a length 160 cm and weight 65009 gr",
+            "match": {
+              "arguments": [
+                {
+                  "val": "160",
+                  "offset": 43
+                },
+                {
+                  "val": "65009",
+                  "offset": 61
+                }
+              ],
+              "location": "ShowPatientDetailsSteps.a_patient_that_is_registered_with_a_length_cm_and_weight_gr(int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 143174,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I ask for the details of the patient",
+            "match": {
+              "location": "ShowPatientDetailsSteps.i_ask_for_the_details_of_the_patient()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 200380,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "the bmi \"25.39\" is given rounded to two digits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25.39",
+                  "offset": 9
+                }
+              ],
+              "location": "ShowPatientDetailsSteps.the_bmi_is_given_rounded_to_two_digits(double)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 101975,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ShowPatientDetailsSteps.setup()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "the bmi is rounded to 2 digits",
+        "description": "",
+        "id": "show-patient-details;the-bmi-is-rounded-to-2-digits;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 53692,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ShowPatientDetailsSteps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 263690,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "a patient that is registered with a length 180 cm and weight 75000 gr",
+            "match": {
+              "arguments": [
+                {
+                  "val": "180",
+                  "offset": 43
+                },
+                {
+                  "val": "75000",
+                  "offset": 61
+                }
+              ],
+              "location": "ShowPatientDetailsSteps.a_patient_that_is_registered_with_a_length_cm_and_weight_gr(int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 201238,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I ask for the details of the patient",
+            "match": {
+              "location": "ShowPatientDetailsSteps.i_ask_for_the_details_of_the_patient()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 173375,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "the bmi \"23.15\" is given rounded to two digits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "23.15",
+                  "offset": 9
+                }
+              ],
+              "location": "ShowPatientDetailsSteps.the_bmi_is_given_rounded_to_two_digits(double)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 135869,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ShowPatientDetailsSteps.setup()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "the bmi is rounded to 2 digits",
+        "description": "",
+        "id": "show-patient-details;the-bmi-is-rounded-to-2-digits;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 46817,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ShowPatientDetailsSteps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 293303,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "a patient that is registered with a length 180 cm and weight 75009 gr",
+            "match": {
+              "arguments": [
+                {
+                  "val": "180",
+                  "offset": 43
+                },
+                {
+                  "val": "75009",
+                  "offset": 61
+                }
+              ],
+              "location": "ShowPatientDetailsSteps.a_patient_that_is_registered_with_a_length_cm_and_weight_gr(int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 158156,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I ask for the details of the patient",
+            "match": {
+              "location": "ShowPatientDetailsSteps.i_ask_for_the_details_of_the_patient()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 188155,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "the bmi \"23.15\" is given rounded to two digits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "23.15",
+                  "offset": 9
+                }
+              ],
+              "location": "ShowPatientDetailsSteps.the_bmi_is_given_rounded_to_two_digits(double)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 106950,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ShowPatientDetailsSteps.setup()"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "In order to navigate to the data of a certain patient As a caretaker I want to see the list of all patients",
+        "description": "",
+        "id": "show-patient-details;in-order-to-navigate-to-the-data-of-a-certain-patient-as-a-caretaker-i-want-to-see-the-list-of-all-patients",
+        "after": [
+          {
+            "result": {
+              "duration": 54670,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ShowPatientDetailsSteps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 122946,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "a patient with the social security number \"93051822361\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "93051822361",
+                  "offset": 43
+                }
+              ],
+              "location": "ShowPatientDetailsSteps.a_patient_with_the_social_security_number(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 142126,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "a second patient with the social security number \"870811220062\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "870811220062",
+                  "offset": 50
+                }
+              ],
+              "location": "ShowPatientDetailsSteps.a_second_patient_with_the_social_security_number(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115062,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "both patients are registered",
+            "match": {
+              "location": "ShowPatientDetailsSteps.both_patients_are_registered()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 155663,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I ask to see a list of all my patients",
+            "match": {
+              "location": "ShowPatientDetailsSteps.i_ask_to_see_a_list_of_all_my_patients()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 164645,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "a patient with the social security number \"93051822361\" is given",
+            "match": {
+              "arguments": [
+                {
+                  "val": "93051822361",
+                  "offset": 43
+                }
+              ],
+              "location": "ShowPatientDetailsSteps.a_patient_with_the_social_security_number_is_given(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 123280,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "a patient with the social security number \"870811220062\" is given",
+            "match": {
+              "arguments": [
+                {
+                  "val": "870811220062",
+                  "offset": 43
+                }
+              ],
+              "location": "ShowPatientDetailsSteps.a_patient_with_the_social_security_number_is_given(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 103033,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ShowPatientDetailsSteps.setup()"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "When there are no patients i will get an empty list when asking for the list of patients.",
+        "description": "",
+        "id": "show-patient-details;when-there-are-no-patients-i-will-get-an-empty-list-when-asking-for-the-list-of-patients.",
+        "after": [
+          {
+            "result": {
+              "duration": 34518,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ShowPatientDetailsSteps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 75052,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "No patients",
+            "match": {
+              "location": "ShowPatientDetailsSteps.no_patients()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 65600,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I ask to see a list of all my patients",
+            "match": {
+              "location": "ShowPatientDetailsSteps.i_ask_to_see_a_list_of_all_my_patients()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69804,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I get an emtpy list",
+            "match": {
+              "location": "ShowPatientDetailsSteps.i_get_an_emtpy_list()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Show patient details",
+    "description": "\nIn order to check the physical condition of a patient\nAs a caretaker\nI want to consult his/her personal details",
+    "id": "show-patient-details",
+    "keyword": "Feature",
+    "uri": "src/test/resources/org/ucll/demo/service/ShowPatientDetails.feature"
+  }
+]
